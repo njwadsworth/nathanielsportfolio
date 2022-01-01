@@ -330,7 +330,7 @@ body {
     min-width: 212px;
     max-height: 500px;
     max-width: 523px;
-    align-self: center;
+    object-fit: contain;
 
     margin: 2em 0;
   }
@@ -352,7 +352,7 @@ body {
   .letsread-img {
     content: url("letsread.png");
     max-width: 700px;
-    
+
 
   }
 
