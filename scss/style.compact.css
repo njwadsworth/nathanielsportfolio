@@ -114,7 +114,7 @@ body .section-two { flex-direction: column; max-width: 1280px; margin-top: 3em; 
 
 body .col-two { flex-direction: column; }
 
-body .letsread-img { content: url("letsread.png"); display: flex; align-items: flex-start; max-width: 700px; height: auto; }
+body .letsread-img { content: url("letsread.png"); display: flex; align-items: flex-start; max-width: 700px; object-fit: contain; height: auto; }
 
 body .proj-desc-cnt { flex-direction: column; align-self: flex-start; margin-top: 1em; }
 
