@@ -330,7 +330,8 @@ body {
     min-width: 212px;
     max-height: 500px;
     max-width: 523px;
-    object-fit: cover;
+    align-self: center;
+
     margin: 2em 0;
   }
   /***********SECTION ONE END ******************/
@@ -351,7 +352,7 @@ body {
   .letsread-img {
     content: url("letsread.png");
     max-width: 700px;
-    object-fit: cover;
+    
 
   }
 

@@ -108,13 +108,13 @@ body h4 { font-weight: 900; }
 
 body .body-text { font-family: "Poppins", sans-serif; font-size: 1em; }
 
-body .avatar { content: url("avatar.png"); min-height: 203px; min-width: 212px; max-height: 500px; max-width: 523px; object-fit: cover; margin: 2em 0; }
+body .avatar { content: url("avatar.png"); min-height: 203px; min-width: 212px; max-height: 500px; max-width: 523px; align-self: center; margin: 2em 0; }
 
 body .section-two { flex-direction: column; max-width: 1280px; margin-top: 3em; }
 
 body .col-two { flex-direction: column; }
 
-body .letsread-img { content: url("letsread.png"); max-width: 700px; object-fit: cover; }
+body .letsread-img { content: url("letsread.png"); max-width: 700px; }
 
 body .proj-desc-cnt { flex-direction: column; align-self: flex-start; margin-top: 1em; }
 
