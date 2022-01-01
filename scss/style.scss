@@ -351,6 +351,8 @@ body {
 
   .letsread-img {
     content: url("letsread.png");
+    display: flex;
+    align-items: flex-start;
     max-width: 700px;
     height: auto;
 
