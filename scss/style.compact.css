@@ -8,7 +8,7 @@ a, a:active, a:focus, a:hover { text-decoration: none; color: inherit; }
 
 *:focus { outline: none; }
 
-.flex-template, .logo-box, body #nav, body #nav .logo-name-cnt, body .menu-button, body .icons-cnt, body .section-one, body .col-one, body .about-me-cnt, body .section-two, body .col-two, body .proj-desc-cnt, body .section-three, body .col-three, body .contact-input-cnt, body footer, body footer .logo-name-cnt { display: flex; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; }
+.flex-template, .logo-box, body #nav, body #nav .logo-name-cnt, body .menu-button, body .icons-cnt, body .section-one, body .col-one, body .about-me-cnt, body .section-two, body .col-two, body .letsread-img, body .proj-desc-cnt, body .section-three, body .col-three, body .contact-input-cnt, body footer, body footer .logo-name-cnt { display: flex; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; }
 
 .lato-template-bold, body .header-med, body .header-lg, body .header-xl, body .header-top, body .header-btm, body .headers-cnt .header-med, body h4 { font-family: "Lato", sans-serif; font-weight: 700; font-size: 1em; }
 
