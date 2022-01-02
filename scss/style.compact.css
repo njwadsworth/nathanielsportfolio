@@ -112,9 +112,9 @@ body .avatar { content: url("avatar.png"); min-height: 203px; min-width: 212px; 
 
 body .section-two { flex-direction: column; max-width: 1280px; }
 
-body .col-two { flex-direction: column; }
+body .col-two { flex-direction: column; justify-content: flex-start; }
 
-body .letsread-img { content: url("letsread.png"); min-height: 193px; min-width: 262px; max-width: 700px; object-fit: contain; }
+body .letsread-img { content: url("letsread.png"); max-width: 700px; object-fit: contain; }
 
 body .proj-desc-cnt { flex-direction: column; align-self: flex-start; margin-top: 1em; }
 

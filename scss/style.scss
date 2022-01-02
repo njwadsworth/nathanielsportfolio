@@ -346,12 +346,12 @@ body {
   .col-two {
     @extend .flex-template;
     flex-direction: column;
+    justify-content: flex-start;
   }
 
   .letsread-img {
     content: url("letsread.png");
-    min-height: 193px;
-    min-width: 262px;
+
     max-width: 700px;
     object-fit: contain;
 
