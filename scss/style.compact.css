@@ -172,3 +172,6 @@ body footer .header-sm { font-size: 1em; text-align: center; width: auto; margin
   body .header-top { font-size: 3.5em; }
   body .header-btm { font-size: 3.5em; }
   body footer { margin: 6em auto 3em; } }
+
+@media screen and (min-color-index: 0) and (-webkit-min-device-pixel-ratio: 0) { /* Define here the CSS styles applied only to Safari browsers (any version and any device) */
+  .letsread-img { align-self: flex-start; } }
