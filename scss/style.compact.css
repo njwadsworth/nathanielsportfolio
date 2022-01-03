@@ -108,7 +108,7 @@ body h4 { font-weight: 900; }
 
 body .body-text { font-family: "Poppins", sans-serif; font-size: 1em; }
 
-body .avatar { content: url("avatar.png"); min-height: 203px; min-width: 212px; max-height: 500px; max-width: 523px; object-fit: contain; margin: 2em 0; }
+body .avatar { content: url("avatar.png"); min-height: 203px; min-width: 212px; max-height: 500px; max-width: 523px; margin: 2em 0; }
 
 body .section-two { flex-direction: column; max-width: 1280px; }
 
