@@ -112,7 +112,7 @@ body .avatar { content: url("avatar.png"); min-height: 203px; min-width: 212px; 
 
 body .section-two { flex-direction: column; max-width: 1280px; }
 
-body .col-two { flex-direction: column; justify-content: flex-start; }
+body .col-two { flex-direction: column; align-items: center; justify-content: center; }
 
 body .letsread-img { content: url("letsread.png"); max-width: 700px; object-fit: contain; }
 
