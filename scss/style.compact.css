@@ -112,7 +112,7 @@ body .avatar { content: url("avatar.png"); min-height: 203px; min-width: 212px; 
 
 body .section-two { flex-direction: column; max-width: 1280px; }
 
-body .col-two { flex-direction: column; align-items: center; justify-content: center; }
+body .col-two { flex-direction: column; align-items: center; justify-content: center; margin-top: 0.5em; }
 
 body .letsread-img { content: url("letsread.png"); width: 100%; max-width: 700px; }
 
@@ -161,7 +161,8 @@ body footer .header-sm { font-size: 1em; text-align: center; width: auto; margin
 /****** SECTION THREE END  *********/
 @media screen and (min-width: 587px) { .avatar { align-self: center; } }
 
-@media screen and (min-width: 768px) { body .col-one { justify-content: space-between; flex-direction: row; } }
+@media screen and (min-width: 768px) { body .col-one { justify-content: space-between; flex-direction: row; }
+  body .letsread-img { align-self: flex-start; } }
 
 @media screen and (min-width: 1280px) { body #nav { margin: 0 auto; }
   body .section-one { margin: 0 auto; }

@@ -340,7 +340,7 @@ body {
     @extend .flex-template;
     flex-direction: column;
     max-width: 1280px;
-    // margin-top: 3em;
+
 
   }
 
@@ -349,6 +349,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-top: 0.5em;
   }
 
   .letsread-img {
@@ -478,7 +479,7 @@ body {
     margin-top: 1em;
     cursor: pointer;
     -webkit-appearance: none;
-  
+
   }
 
   footer {
@@ -522,6 +523,10 @@ body {
     .col-one {
       justify-content: space-between;
       flex-direction: row;
+    }
+
+    .letsread-img {
+      align-self: flex-start;
     }
 
 
