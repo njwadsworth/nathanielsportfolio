@@ -477,6 +477,7 @@ body {
     @extend .poppins-template-bold;
     margin-top: 1em;
     cursor: pointer;
+    -webkit-appearance: none;
   }
 
   footer {
