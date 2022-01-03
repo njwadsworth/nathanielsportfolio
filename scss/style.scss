@@ -353,6 +353,7 @@ body {
   .letsread-img {
     @extend .flex-template;
     content: url("letsread.png");
+    width: 100%;
     max-width: 700px;
     //object-fit: contain;
 
