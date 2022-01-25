@@ -1,0 +1,63 @@
+@use "../layout/flexbox" as  *;
+@mixin icons-cnt {
+  @include flex-template;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 0 25px;
+  flex-wrap: wrap;
+}
+
+@mixin html-icon {
+  height: 70px;
+  width: 36px;
+
+  .header-sm {
+    text-align: center;
+  }
+
+}
+
+@mixin css-icon {
+  height: 70px;
+  width: 36px;
+  .header-sm {
+    text-align: center;
+  }
+
+}
+
+@mixin js-icon {
+  height: 70px;
+  width: 52px;
+
+  .header-sm {
+    text-align: center;
+    font-size: 10px;
+  }
+
+}
+
+@mixin sass-icon {
+    height: 70px;
+    width: 48px;
+    .header-sm {
+      text-align: center;
+    }
+}
+
+@mixin figma-icon {
+    height: 70px;
+     .header-sm {
+        text-align: center;
+        font-size: 10px;
+      }
+}
+@mixin git-icon {
+  height: 70px;
+  width: 48px;
+
+  .header-sm {
+    text-align: center;
+    font-size: 10px;
+  }
+}

@@ -1,0 +1,15 @@
+@use "../layout/flexbox" as *;
+
+@mixin col-one {
+  @extend .flex-template;
+  flex-direction: column;
+  width: 100%;
+}
+
+@mixin col-two {
+  @extend .flex-template;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0.5em;
+}

@@ -1,0 +1,6 @@
+@mixin flex-template {
+  display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+}

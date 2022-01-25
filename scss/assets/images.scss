@@ -1,0 +1,18 @@
+
+@mixin avatar {
+    content: url("avatar.png");
+    min-height: 203px;
+    min-width: 212px;
+    max-height: 500px;
+    max-width: 523px;
+    width: 100%;
+
+    margin: 2em 0;
+}
+@mixin letsread-img {
+  @extend .flex-template;
+  content: url("letsread.png");
+  width: 100%;
+  max-width: 700px;
+
+}

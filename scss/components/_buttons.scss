@@ -1,0 +1,20 @@
+@use "../abstracts/variables.scss" as *;
+
+@mixin visit-btn {
+  display: inline;
+  border: 1px solid $secondary-color;
+  background-color: $background-color;
+  font-size: 14px;
+  border-radius: 5px;
+  width: 111px;
+  height: 34px;
+  margin-top: 1em;
+  cursor: pointer;
+
+  .header-sm {
+    color: $secondary-color;
+    font-size: 1em;
+    font-weight: 600;
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,59 @@
+@use "../abstracts/variables.scss" as *;
+@use "../abstracts/headers.scss" as *;
+@use "../components/buttons.scss" as *;
+@mixin header-cnt {
+  @extend .lato-template-bold;
+  font-size: 1.5em;
+  color: $secondary-color;
+  margin: 0.25em 0;
+}
+@mixin about-me-cnt {
+  @extend .flex-template;
+  flex-direction: column;
+
+  .body-text:nth-of-type(1) {
+    max-width: 310px;
+    margin: 0.5em 0;
+  }
+
+  .body-text:nth-of-type(2) {
+    max-width: 310px;
+    margin: 0.5em 0;
+  }
+}
+@mixin skills-cnt {
+  margin: 3em 0;
+}
+
+@mixin proj-desc-cnt {
+  @extend .flex-template;
+  flex-direction: column;
+  align-self: flex-start;
+  margin-top: 1em;
+
+  .header-med {
+    @extend .poppins-template-med;
+  }
+}
+
+@mixin visit-cnt {
+    display: inline;
+    .visit-btn {
+      display: inline;
+      border: 1px solid $secondary-color;
+      background-color: $background-color;
+      font-size: 14px;
+      border-radius: 5px;
+      width: 111px;
+      height: 34px;
+      margin-top: 1em;
+      cursor: pointer;
+
+      .header-sm {
+        color: $secondary-color;
+        font-size: 1em;
+        font-weight: 600;
+        margin: 0 auto;
+      }
+    }
+}

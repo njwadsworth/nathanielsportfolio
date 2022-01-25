@@ -1,0 +1,55 @@
+@use "../abstracts/variables.scss" as *;
+
+@mixin lato-template-bold {
+  font-family: $lato-font;
+  font-weight: 700;
+
+}
+
+@mixin poppins-template-bold {
+  font-family: $poppins-font;
+  font-weight: 700;
+
+}
+
+@mixin poppins-template-reg {
+  font-family: $poppins-font;
+  font-weight: 400;
+
+}
+
+@mixin poppins-template-med {
+  font-family: $poppins-font;
+  font-weight: 500;
+
+}
+@mixin header-med {
+  @extend .lato-template-bold;
+  font-size: 1.5em;
+  color: black;
+}
+
+@mixin header-lg {
+  @extend .lato-template-bold;
+  font-size: 2em;
+}
+
+@mixin header-xl {
+  @extend .lato-template-bold;
+  font-size: 40px;
+}
+
+@mixin header-sm {
+  @extend .poppins-template-reg;
+  font-size: 0.75em;
+}
+@mixin header-top {
+  @include header-xl;
+  font-size: 3em;
+  margin-top: 0.5em;
+}
+
+@mixin header-btm {
+  @include header-xl;
+  font-size: 3em;
+}

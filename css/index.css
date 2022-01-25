@@ -1,0 +1,423 @@
+html {
+  scroll-behavior: smooth;
+}
+
+a,
+a:active,
+a:focus,
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: none;
+}
+
+.flex-template, body footer .logo-name-cnt, body footer, body .contact-input-cnt, body .col-three, body .section-three, body .proj-desc-cnt, body .letsread-img, body .col-two, body .section-two, body .about-me-cnt, body .col-one, body #nav .logo-name-cnt, body #nav, .logo-box {
+  display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+}
+
+.lato-template-bold, body h4, body .header-btm, body .header-top, body .headers-cnt .header-med, body .header-xl, body .header-lg, body .header-med {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+}
+
+.poppins-template-bold, body .submit-btn {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+.poppins-template-reg, body .col-three #contact-me-cnt .header-sm, body .header-sm {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+.poppins-template-med, body footer .logo-name-cnt .header-med, body .proj-desc-cnt .header-med, body #nav .logo-name-cnt .header-med {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  font-family: "Poppins", sans-serif;
+}
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  font-family: "Poppins", sans-serif;
+}
+
+:-ms-input-placeholder {
+  /* IE 10+ */
+  font-family: "Poppins", sans-serif;
+}
+
+:-moz-placeholder {
+  /* Firefox 18- */
+  font-family: "Poppins", sans-serif;
+}
+
+.logo-box {
+  display: inline-flex;
+  border: 2px solid black;
+  width: 48px;
+  height: 48px;
+}
+
+body {
+  background-color: #EDE9E4;
+  padding: 1em 1.8em 0;
+  /******** HEADERS  ****************/
+  /****** ICONS   *********/
+  /***********SECTION ONE START ********/
+  /***********SECTION ONE END ******************/
+  /******** SECTION TWO START ***********/
+  /******* SECTION TWO END  **********/
+  /*SECTION THREE START ***********/
+}
+body .logo-box {
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+  height: 48px;
+}
+body .logo-box h3 {
+  font-size: 1.6em;
+  font-weight: 900;
+  font-family: "Poppins", sans-serif;
+  visibility: visible;
+}
+body #nav {
+  justify-content: space-between;
+  height: 48px;
+  max-width: 1280px;
+}
+body #nav .logo-name-cnt {
+  flex-direction: row;
+}
+body #nav .logo-name-cnt .header-med {
+  font-size: 14px;
+  font-weight: 600;
+  align-self: center;
+  margin-left: 0.5em;
+}
+body #contactme-btn {
+  display: inline;
+  border: 1px solid #FF2E00;
+  background-color: #EDE9E4;
+  font-size: 14px;
+  border-radius: 5px;
+  width: 111px;
+  height: 34px;
+  cursor: pointer;
+}
+body #contactme-btn .header-sm {
+  color: #FF2E00;
+  font-size: 1em;
+  font-weight: 600;
+  margin: 0 auto;
+}
+body .header-med {
+  font-size: 1.5em;
+  color: black;
+}
+body .header-lg {
+  font-size: 2em;
+}
+body .header-xl {
+  font-size: 40px;
+}
+body .header-sm {
+  font-size: 0.75em;
+}
+body .icons-cnt {
+  display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 0 25px;
+  flex-wrap: wrap;
+}
+body .html-icon {
+  height: 70px;
+  width: 36px;
+}
+body .html-icon .header-sm {
+  text-align: center;
+}
+body .css-icon {
+  height: 70px;
+  width: 36px;
+}
+body .css-icon .header-sm {
+  text-align: center;
+}
+body .js-icon {
+  height: 70px;
+  width: 52px;
+}
+body .js-icon .header-sm {
+  text-align: center;
+  font-size: 10px;
+}
+body .sass-icon {
+  height: 70px;
+  width: 48px;
+}
+body .sass-icon .header-sm {
+  text-align: center;
+}
+body .figma-icon {
+  height: 70px;
+}
+body .figma-icon .header-sm {
+  text-align: center;
+  font-size: 10px;
+}
+body .git-icon {
+  height: 70px;
+  width: 48px;
+}
+body .git-icon .header-sm {
+  text-align: center;
+  font-size: 10px;
+}
+body .section-one {
+  display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  flex-direction: column;
+  max-width: 1280px;
+}
+body .col-one {
+  flex-direction: column;
+  width: 100%;
+}
+body .headers-cnt .header-med {
+  font-size: 1.5em;
+  color: #FF2E00;
+  margin: 0.25em 0;
+}
+body .header-top {
+  font-size: 40px;
+  font-size: 3em;
+  margin-top: 0.5em;
+}
+body .header-btm {
+  font-size: 40px;
+  font-size: 3em;
+}
+body .about-me-cnt {
+  flex-direction: column;
+}
+body .about-me-cnt .body-text:nth-of-type(1) {
+  max-width: 310px;
+  margin: 0.5em 0;
+}
+body .about-me-cnt .body-text:nth-of-type(2) {
+  max-width: 310px;
+  margin: 0.5em 0;
+}
+body .skills-cnt {
+  margin: 3em 0;
+}
+body h4 {
+  font-weight: 900;
+}
+body .body-text {
+  font-family: "Poppins", sans-serif;
+  font-size: 1em;
+}
+body .avatar {
+  content: url("avatar.png");
+  min-height: 203px;
+  min-width: 212px;
+  max-height: 500px;
+  max-width: 523px;
+  width: 100%;
+  margin: 2em 0;
+}
+body .section-two {
+  flex-direction: column;
+  max-width: 1280px;
+}
+body .col-two {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0.5em;
+}
+body .letsread-img {
+  content: url("letsread.png");
+  width: 100%;
+  max-width: 700px;
+}
+body .proj-desc-cnt {
+  flex-direction: column;
+  align-self: flex-start;
+  margin-top: 1em;
+}
+body .visit-cnt {
+  display: inline;
+}
+body .visit-cnt .visit-btn {
+  display: inline;
+  border: 1px solid #FF2E00;
+  background-color: #EDE9E4;
+  font-size: 14px;
+  border-radius: 5px;
+  width: 111px;
+  height: 34px;
+  margin-top: 1em;
+  cursor: pointer;
+}
+body .visit-cnt .visit-btn .header-sm {
+  color: #FF2E00;
+  font-size: 1em;
+  font-weight: 600;
+  margin: 0 auto;
+}
+body .section-three {
+  flex-direction: column;
+  margin-top: 3em;
+  max-width: 1280px;
+}
+body .col-three {
+  flex-direction: column;
+}
+body .col-three {
+  align-self: center;
+}
+body .col-three #contact-me-cnt {
+  text-align: center;
+}
+body .col-three #contact-me-cnt .header-sm {
+  font-weight: 700;
+}
+body .contact-input-cnt {
+  flex-direction: column;
+  align-self: center;
+  margin-top: 1em;
+  max-width: 400px;
+}
+body input {
+  width: 100%;
+  padding: 6px;
+  background-color: #EDE9E4;
+  border-color: black;
+  border-width: 2px;
+}
+body input:focus {
+  border-color: #FF2E00;
+}
+body textarea:focus {
+  border-color: #FF2E00;
+}
+body textarea {
+  width: 100%;
+  height: 150px;
+  padding: 6px;
+  background-color: #EDE9E4;
+  border-color: black;
+  border-width: 2px;
+}
+body input:nth-of-type(2) {
+  margin: 0.8em 0;
+}
+body .submit-btn {
+  display: inline;
+  border: 1px solid #FF2E00;
+  background-color: #EDE9E4;
+  font-size: 14px;
+  border-radius: 5px;
+  width: 80px;
+  height: 34px;
+  color: #FF2E00;
+  margin-top: 1em;
+  cursor: pointer;
+  -webkit-appearance: none;
+}
+body footer {
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 2em;
+  margin-bottom: 5em;
+  max-width: 1280px;
+}
+body footer .logo-name-cnt {
+  flex-direction: row;
+}
+body footer .logo-name-cnt .header-med {
+  font-size: 18px;
+  font-weight: 600;
+  align-self: center;
+  margin-left: 0.5em;
+}
+body footer .header-sm {
+  font-size: 1em;
+  text-align: center;
+  width: auto;
+  margin-top: 2em;
+}
+
+/****** SECTION THREE END  *********/
+@media screen and (min-width: 587px) {
+  .avatar {
+    align-self: center;
+  }
+}
+@media screen and (min-width: 768px) {
+  body .col-one {
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  body .letsread-img {
+    align-self: flex-start;
+  }
+}
+@media screen and (min-width: 1280px) {
+  body #nav {
+    margin: 0 auto;
+  }
+  body .section-one {
+    margin: 0 auto;
+  }
+  body .section-two {
+    margin: 3em auto 0;
+  }
+  body .section-three {
+    margin: 3em auto 0;
+  }
+  body .col-two {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  body .proj-desc-cnt {
+    width: 330px;
+    align-self: center;
+  }
+  body .header-top {
+    font-size: 3.5em;
+  }
+  body .header-btm {
+    font-size: 3.5em;
+  }
+  body footer {
+    margin: 6em auto 3em;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */
