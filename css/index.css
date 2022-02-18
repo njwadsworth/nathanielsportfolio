@@ -111,7 +111,10 @@ body #nav .logo-name-cnt .header-med {
   align-self: center;
   margin-left: 0.5em;
 }
-body #contactme-btn {
+body .row-btns {
+  margin-right: 8px;
+}
+body .row-btns #contactme-btn {
   display: inline;
   border: 1px solid #FF2E00;
   background-color: #EDE9E4;
@@ -120,12 +123,68 @@ body #contactme-btn {
   width: 111px;
   height: 34px;
   cursor: pointer;
+  margin-right: 8px;
 }
-body #contactme-btn .header-sm {
+body .row-btns #contactme-btn .header-sm {
   color: #FF2E00;
   font-size: 1em;
   font-weight: 600;
   margin: 0 auto;
+}
+body .row-btns .linkedin-btn {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #EDE9E4;
+  border: none;
+  font-size: 14px;
+  width: 111px;
+  height: 34px;
+  cursor: pointer;
+  padding: 0 0.5em;
+}
+body .row-btns .linkedin-btn .header-sm {
+  color: black;
+  font-size: 1em;
+  font-weight: 600;
+  margin: 0 auto;
+}
+body .row-btns .arrow-up-right {
+  content: url("arrow-up-right.png");
+  width: 12px;
+  height: 12px;
+  align-self: center;
+  transition: 0.3s;
+}
+body footer .linkedin-btn {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #EDE9E4;
+  border: none;
+  font-size: 14px;
+  width: 111px;
+  height: 34px;
+  cursor: pointer;
+  visibility: hidden;
+}
+body footer .linkedin-btn .header-sm {
+  color: black;
+  font-size: 1em;
+  font-weight: 600;
+  margin: 0;
+}
+body footer .linkedin-btn .arrow-up-right {
+  content: url("arrow-up-right.png");
+  width: 12px;
+  height: 12px;
+  transition: 0.3s;
+  align-self: center;
+  margin-left: 0.5em;
+}
+body .linkedin-btn:hover .arrow-up-right {
+  transform: translate(5px, -5px);
 }
 body .header-med {
   font-size: 1.5em;
@@ -351,7 +410,8 @@ body .submit-btn {
   -webkit-appearance: none;
 }
 body footer {
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-between;
   align-items: flex-start;
   margin-top: 2em;
   margin-bottom: 5em;
@@ -374,9 +434,20 @@ body footer .header-sm {
 }
 
 /****** SECTION THREE END  *********/
+@media screen and (max-width: 400px) {
+  .row-btns {
+    width: 111px;
+  }
+}
 @media screen and (min-width: 587px) {
-  .avatar {
+  body .avatar {
     align-self: center;
+  }
+  body .row-btns {
+    visibility: visible;
+  }
+  body footer .linkedin-btn {
+    visibility: visible;
   }
 }
 @media screen and (min-width: 768px) {

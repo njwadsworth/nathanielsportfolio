@@ -116,7 +116,17 @@ body {
         margin-left: 0.5em;
       }
     }
+    .row-btns {
+      @include row-btns;
+    }
   }
+
+  .row-btns {
+
+      margin-right: 8px;
+      // visibility: hidden;
+
+
   #contactme-btn {
     display: inline;
     border: 1px solid $secondary-color;
@@ -126,6 +136,7 @@ body {
     width: 111px;
     height: 34px;
     cursor: pointer;
+    margin-right: 8px;
 
     .header-sm {
       color: $secondary-color;
@@ -135,40 +146,81 @@ body {
     }
   }
 
-  // .menu-button {
-  //   @extend .flex-template;
-  //   flex-direction: column;
-  //   align-items: center;
-  //   justify-content: center;
-  //   cursor: pointer;
-  //   height: inherit;
-  //   width: 52px;
-  // }
-  //
-  // .bar1,
-  // .bar2,
-  // .bar3 {
-  //   width: 24px;
-  //   height: 2px;
-  //   background-color: black;
-  //   margin: 3px 0;
-  //   transition: 0.4s;
-  //   transform-origin: 1px;
-  // }
-  //
-  // .change .bar1 {
-  //   -webkit-transform: rotate(45deg);
-  //   transform: rotate(45deg);
-  // }
-  //
-  // .change .bar2 {
-  //   opacity: 0;
-  // }
-  //
-  // .change .bar3 {
-  //   -webkit-transform: rotate(-45deg);
-  //   transform: rotate(-45deg);
-  // }
+  .linkedin-btn {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: $background-color;
+    border: none;
+    font-size: 14px;
+    width: 111px;
+    height: 34px;
+    cursor: pointer;
+    padding: 0 0.5em;
+
+    .header-sm {
+      color: black;
+      font-size: 1em;
+      font-weight: 600;
+      margin: 0 auto;
+
+    }
+  }
+
+  .arrow-up-right {
+    content: url('arrow-up-right.png');
+    width: 12px;
+    height: 12px;
+    align-self: center;
+    transition: 0.30s;
+
+
+  }
+}
+footer {
+.linkedin-btn {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: $background-color;
+  border: none;
+  font-size: 14px;
+  width: 111px;
+  height: 34px;
+  cursor: pointer;
+  visibility: hidden;
+
+
+  .header-sm {
+    color: black;
+    font-size: 1em;
+    font-weight: 600;
+    margin:0;
+
+  }
+  .arrow-up-right {
+    content: url('arrow-up-right.png');
+    width: 12px;
+    height: 12px;
+    transition: 0.30s;
+    align-self: center;
+    margin-left: 0.5em;
+  }
+}
+}
+.linkedin-btn:hover .arrow-up-right {
+  transform: translate(5px, -5px);
+
+
+}
+
+
+
+
+
+
+
   /******** HEADERS  ****************/
   .header-med {
     @include header-med;
@@ -301,6 +353,7 @@ body {
     #contact-me-cnt {
       text-align: center;
 
+
       .header-sm {
         @extend .poppins-template-reg;
         font-weight: 700;
@@ -363,7 +416,8 @@ body {
 
   footer {
     @extend .flex-template;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: flex-start;
     margin-top: 2em;
     margin-bottom: 5em;
@@ -391,12 +445,33 @@ body {
   }
 }
 /****** SECTION THREE END  *********/
+@media screen and (max-width: 400px) {
+  .row-btns {
+    width: 111px;
+  }
+
+}
+
+
 
 @media screen and (min-width: 587px) {
+  body {
   .avatar {
     align-self: center;
   }
+  .row-btns {
+    visibility: visible;
+  }
+  footer {
+    .linkedin-btn {
+    visibility: visible;
+    }
+  }
 }
+
+}
+
+
 @media screen and (min-width: 768px) {
   body {
     .col-one {
